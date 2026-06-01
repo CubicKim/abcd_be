@@ -1,6 +1,13 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://192.168.144.1:5432/postgres
+#    username: hmap
+#    password: 1234
+#    driver-class-name: org.postgresql.Driver
+
 spring:
   datasource:
-    url: jdbc:postgresql://192.168.144.1:5432/postgres
+    url: jdbc:postgresql://abcd-db-service:5432/postgres
     username: hmap
     password: 1234
     driver-class-name: org.postgresql.Driver
