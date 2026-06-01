@@ -1,2 +1,5 @@
-server:
-  port: 8081
+#server:
+#  port: 8081
+spring:
+  profiles:
+    active: local # 기본값은 local로 해두면 인텔리제이에서 그냥 켰을 때 local이 붙습니다.
