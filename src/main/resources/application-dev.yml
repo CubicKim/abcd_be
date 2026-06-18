@@ -7,7 +7,7 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://10.0.2.2:5433/abcd_db
+    url: jdbc:postgresql://172.17.0.1:5432/abcd_db
     username: postgres
     password: cubicinc
     driver-class-name: org.postgresql.Driver
