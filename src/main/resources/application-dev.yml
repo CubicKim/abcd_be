@@ -7,7 +7,7 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://abcd-db-service:5432/postgres
-    username: hmap
-    password: 1234
+    url: jdbc:postgresql://localhost:5433/abcd_db
+    username: postgres
+    password: cubicinc
     driver-class-name: org.postgresql.Driver
