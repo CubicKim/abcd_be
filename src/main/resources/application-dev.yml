@@ -7,7 +7,7 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/abcd_db
+    url: jdbc:postgresql://host.minikube.internal:5433/abcd_db
     username: postgres
     password: cubicinc
     driver-class-name: org.postgresql.Driver
